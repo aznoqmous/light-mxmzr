@@ -7,11 +7,11 @@
     <style media="screen">
       figure{
         margin: 100px auto;
-
       }
     </style>
   </head>
   <body>
+    
     <!-- STRUCTURE -->
     <figure style="width: 600px; height: 450px;">
       <img src="res/0.jpg" alt="">
@@ -22,13 +22,12 @@
     </figure>
 
     <script>
-
     var containers = document.getElementsByTagName('figure');
       for (var i = 0; i < containers.length; i++) {
         var fig = containers[i];
         new Maximizr(fig);
       }
-
     </script>
+
   </body>
 </html>
