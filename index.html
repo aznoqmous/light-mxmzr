@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="light-mxmzr.js"></script>
+    <style media="screen">
+      figure{
+        margin: 100px auto;
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- STRUCTURE -->
+    <figure style="width: 600px; height: 450px;">
+      <img src="res/0.jpg" alt="">
+    </figure>
+
+    <figure  style="width: 200px; height: 450px;">
+      <img src="res/2.jpg" alt="">
+    </figure>
+
+    <script>
+
+    var containers = document.getElementsByTagName('figure');
+      for (var i = 0; i < containers.length; i++) {
+        var fig = containers[i];
+        new Maximizr(fig);
+      }
+
+    </script>
+  </body>
+</html>
